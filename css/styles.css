@@ -406,6 +406,15 @@ body {
     padding-left: 10vw;
 }
 
+.about-secondary-text {
+    width: 40vw;
+    top: 500px;
+    position: absolute;
+    margin-top: 5em;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
 .skills {
     padding-top: 30px;
     /* margin-right: 100px; */
@@ -533,7 +542,8 @@ li {
     overflow: hidden;
     position: absolute;
     top: 0;
-    background-color: #fff8dc;
+    /* background-color: #fff8dc; */
+    background-image: url("/img/siegmund-photography-zS0dhp8g2BE-unsplash.jpg");
     z-index: -2;
 }
 
