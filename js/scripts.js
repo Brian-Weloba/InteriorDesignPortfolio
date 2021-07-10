@@ -16,6 +16,11 @@ function openNav() {
     document.getElementById("item5").style.padding = "20px 8px 20px 60px";
     document.getElementById("item5").style.opacity = "1";
     document.getElementById("sidenavDiv").style.height="500px"
+    document.getElementById("nm1").style.opacity="1";
+    document.getElementById("nm2").style.opacity="0";
+    document.getElementById("nm2").style.transitionDelay = "0.9s";
+    document.getElementById("nm1").style.transitionDelay = "0.9s";
+    // document.getElementById("nm2").innerHTML = "Brian N Weloba";
     nav = true;
 }
 
@@ -34,6 +39,11 @@ function closeNav() {
     document.getElementById("item5").style.padding = "20px 8px 20px 0px";
     document.getElementById("item5").style.opacity = "0";
     document.getElementById("sidenavDiv").style.height = "0"
+    document.getElementById("nm1").style.opacity = "0";
+    document.getElementById("nm2").style.opacity = "1";
+    document.getElementById("nm1").style.transition = "0.01s";
+    document.getElementById("nm2").style.transition = "0.01s";
+    // document.getElementById("nm2").style.opacity = "0";
     nav = false;
 }
 
