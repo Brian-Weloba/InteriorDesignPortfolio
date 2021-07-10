@@ -41,8 +41,6 @@ function toggleNav() {
     nav ? closeNav() : openNav();
 }
 
-document.getElementById("nameId").addEventListener("mouseenter",changeName);
-document.getElementById("nameId").addEventListener("mouseleave",changeNameReverse);
 
 // function changeName(){
 //     // let name = document.querySelectorAll(".nameC");
@@ -60,12 +58,3 @@ document.getElementById("nameId").addEventListener("mouseleave",changeNameRevers
 //         name[i].style.animationPlaybackState = "running"
 //     }
 // }
-
-new fullpage('#fullpage', {
-    //options here
-    autoScrolling: true,
-    scrollHorizontally: true
-});
-
-//methods
-fullpage_api.setAllowScrolling(false);

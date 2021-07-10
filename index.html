@@ -30,17 +30,17 @@
             <div class="sidenavDiv" id="sidenavDiv">
             </div>
             <div class="navList">
-                <a id="item1" class="items" href="#">About</a>
-                <a id="item2" class="items" href="#">Interests</a>
-                <a id="item3" class="items" href="#">Education</a>
-                <a id="item4" class="items" href="#">Projects</a>
-                <a id="item5" class="items" href="#">Contacts</a>
+                <a id="item1" class="items" href="#home" onclick="closeNav()">Home</a>
+                <a id="item2" class="items" href="#about" onclick="closeNav()">About</a>
+                <a id="item3" class="items" href="#skills" onclick="closeNav()">Skills</a>
+                <a id="item4" class="items" href="#" onclick="closeNav()">Projects</a>
+                <a id="item5" class="items" href="#contacts" onclick="closeNav()">Contacts</a>
             </div>
         </div>
     </div>
 
     <div id="fullpage">
-        <div class="landing section">
+        <div class="landing section" id="home">
             <div class="landingText">
                 <div>
                     <p>Hello! I'm Brian,</p>
@@ -71,7 +71,7 @@
                 <img src="img/black_stroke.png" height="400">
             </div>
         </div>
-        <div class="skills section">
+        <div class="skills section" id="skills">
             <div class="raised">
                 <div class="skillsText">
                     <h1 class="landingText">SKILLS</h1>
@@ -195,11 +195,21 @@
                 </div>
             </div>
         </div>
-        <div class="contacts">
-            <p class="landingText">CONTACTS</p>
-            <div class="goldStroke3">
-                <img src="/img/gold_ink.png" height="700">
+        <footer class="contacts" id="contacts">
+            <p class="landingText">Get In Touch</p>
+            <div class="links">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/brian-weloba-a02000187" class="linkedin link-icon">
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/brian-weloba" class=" behance link-icon "></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nyonges4/ " class="instagram link-icon ">
+                </a>
+                <a href="tel:+254712000928" class="phone link-icon "></a>
+                <a href="mailto:bweloba@gmail.com" class="mail link-icon "></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Brian-Weloba " class="github link-icon "></a>
             </div>
-        </div>
+            <div class="goldStroke3 ">
+                <img src="/img/gold_ink.png " height="700 ">
+            </div>
+        </footer>
     </div>
 </body>
