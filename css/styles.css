@@ -661,16 +661,6 @@
         transition: ease-in .1s;
     }
     
-    .interior {
-        /* border-right: 2px solid #231f20; */
-        /* background-color: aqua; */
-    }
-    
-    .graphic {
-        /* border-right: 2px solid #231f20; */
-        /* background-color: chocolate; */
-    }
-    
     .graphic:hover,
     .interior:hover,
     .web-mobile:hover {
