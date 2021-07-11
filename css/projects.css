@@ -1,4 +1,6 @@
 .back {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding: 20px;
     background-color: #231f20;
@@ -18,13 +20,19 @@
 
 .nav {
     position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100vw;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     font-family: 'Major Mono Display', monospace;
 }
 
 .title {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     margin-top: 30px;
     text-decoration: none;
@@ -38,8 +46,14 @@
 .row2 {
     width: 100vw;
     margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-family: 'Major Mono Display', monospace;
     font-size: 35px;

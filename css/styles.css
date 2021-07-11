@@ -127,16 +127,9 @@
         overflow: hidden;
         /* animation: slide .5s ease forwards; */
         /* animation-play-state: paused; */
+        -webkit-transition: .3s ease;
+        -o-transition: .3s ease;
         transition: .3s ease;
-    }
-    
-    @keyframes slide {
-        from {
-            height: 0;
-        }
-        to {
-            height: 180px;
-        }
     }
     
     .projects-div a {
@@ -806,6 +799,8 @@
         width: 100vw;
         display: block;
         /* background-color: #afd3ee; */
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0)), color-stop(30%, #afd3ee));
+        background-image: -o-linear-gradient(top, rgba(255, 0, 0, 0), #afd3ee 30%);
         background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #afd3ee 30%);
         margin-top: 100px;
     }
