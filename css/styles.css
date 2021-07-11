@@ -660,6 +660,7 @@
         width: 31vw;
         height: 71vh;
         border: 4px solid #231f20;
+        background-color: #fff8dc;
     }
     
     .graphic:hover~.interior {
