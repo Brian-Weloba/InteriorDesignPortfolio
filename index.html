@@ -31,12 +31,14 @@
             </div>
             <div class="navList">
                 <a id="item1" class="items" href="#home" onclick="closeNav()">Home</a>
-                <a id="item2" class="items" href="#about" onclick="closeNav()">About</a>
-                <a id="item3" class="items" href="#skills" onclick="closeNav()">Skills</a>
-                <a id="item4" class="items" href="#" onclick="closeNav()">Projects</a>
-                <a>Interior</a>
-                <a>Graphic</a>
-                <a>Web Dev</a>
+                <a id="item2" class="items" href="#abt" onclick="closeNav()">About</a>
+                <a id="item3" class="items" href="#skls" onclick="closeNav()">Skills</a>
+                <a id="item4" class="items" style="cursor: pointer;" onclick="toggleProj()">Projects</a>
+                <div class="projects-div" id="proj">
+                    <a href="pages/interior-design.html" class="projects">Interior</a>
+                    <a href="pages/graphic-design.html" class="projects">Graphic</a>
+                    <a href="pages/web-mobile.html" class="projects">Web Dev</a>
+                </div>
                 <a id="item5" class="items" href="#contacts" onclick="closeNav()">Contact</a>
             </div>
         </div>
@@ -64,7 +66,7 @@
             <div class="goldStroke1">
                 <img src="img/gold.png" height="400">
             </div>
-            <div class="about-text">
+            <div class="about-text" id="abt">
                 <h1 class="landingText">ABOUT</h1>
                 <p class="aboutText">I am an Interior Design graduate with practical experience in Mobile and Web Development. I am eager to learn and strive to produce exceptional work. I spend a lot of time either working on design projects or building software and electronics.
                 </p>
@@ -79,7 +81,7 @@
         <div class="skills section" id="skills">
             <div class="raised">
                 <a href="/res/Brian_Weloba_-_Interior_Designer_Final.pdf" class="resume" download="">Download Resume</a>
-                <div class="skillsText">
+                <div class="skillsText" id="skls">
                     <h1 class="landingText">SKILLS</h1>
                     <div class="skills-categories">
                         <div class="interior cat">
@@ -106,9 +108,9 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="goTo int">
+                            <a style="text-decoration: none;" href="/pages/interior-design.html" class="goTo int">
                                 <p class="viewProj">View Projects</p>
-                            </div>
+                            </a>
                         </div>
                         <div class="graphic cat">
                             <p class="title">Graphic Design</p>
@@ -139,9 +141,9 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="goTo gra">
+                            <a style="text-decoration: none;" href="pages/graphic-design.html" class="goTo gra">
                                 <p class="viewProj">View Projects</p>
-                            </div>
+                            </a>
                         </div>
                         <div class="web-mobile cat">
                             <p>Web/Mobile </p>
@@ -193,16 +195,16 @@
                                     </div>
                                 </li>
                             </ul>
-                            <div class="goTo web">
+                            <a style="text-decoration: none;" href="pages/web-mobile.html" class="goTo web">
                                 <p class="viewProj">View Projects</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <footer class="contacts" id="contacts">
-            <p class="landingText" style="color: #fff8dc;">Get In Touch</p>
+            <p class="landingText" style="color: #231F20;">Get In Touch</p>
             <div class="links">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/brian-weloba-a02000187" class="linkedin link-icon">
                 </a>
